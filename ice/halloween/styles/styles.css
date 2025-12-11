@@ -1,0 +1,101 @@
+/* Add your CSS here to style your halloween page */
+body {
+    background: #18131d;
+    color: #faf6e7;
+    font-family: 'Creepster', 'Paprika', cursive, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    max-width: 850px;
+    margin: 30px auto 0 auto;
+    background: rgb(35, 17, 36, 0.97);
+    border-radius: 16px;
+    box-shadow: 0 0 24px 6px #290a23;
+    border: 3px solid #ef720e;
+    padding: 32px 36px 16px 36px;
+ }
+
+header {
+    background: linear-gradient(90deg, #301934 60%, #ef720e 100%);
+    padding: 16px 16px 4px 0;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 0 12px #ef720e, 0 1px 8px #231111 inset;
+}
+
+nav ul {
+    display: flex;
+    gap: 18px;
+    list-style: none;
+    margin: 0;
+    padding: 0 0 4px 12px;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    color: #ef720e;
+    font-weight: bold;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    text-shadow: 1px 2px 8px #231111, 0 1px 0 #ff9911;
+    cursor: pointer;
+    transition: color 0.24s;
+}
+
+nav ul li:hover {
+    color: #c651e2;
+    text-shadow: 0 0 16px #fff, 2px 3px 10px #290a23;
+}
+
+main {
+    padding: 32px 0 0 0;
+    text-align: center;
+}
+
+h1 {
+    color: #ef720e;
+    font-family: 'Creepster', 'Paprika', cursive, serif;
+    margin: 24px 0 8px 0;
+    font-size: 2em;
+    text-shadow: 0 0 12px #18131d, 1px 3px 7px #ef720e;
+}
+
+img {
+    max-width: 260px;
+    display: block;
+    margin: 10px auto 18px auto;
+    border: 5px double #ef720e;
+    box-shadow: 0 0 28px 7px #190920;
+    background: #180e16;
+    border-radius: 15px;
+}
+
+section {
+    background: rgba(44, 28, 41, 0.88);
+    margin: 28px auto 20px auto;
+    padding: 18px 22px;
+    border-left: 7px solid #ef720e;
+    border-radius: 10px 0 14px 0;
+    box-shadow: 0 0 9px 2px #a85fed80;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.66;
+    color: #fffcf2;
+    text-shadow: 0 1px 7px #0009, 0 0 2px #ef720e;
+    margin: 0 0 12px 0;
+}
+
+footer {
+    color: #ef720e;
+    text-align: center;
+    padding: 18px 0 15px 0;
+    font-size: 1.17em;
+    letter-spacing: 2px;
+    background: #301934;
+    border-radius: 0 0 10px 10px;
+    margin: 30px -36px -16px -36px;
+    box-shadow: 0 -6px 16px #a85fed60 inset;
+}
